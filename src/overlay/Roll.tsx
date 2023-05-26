@@ -50,7 +50,7 @@ export default function Roll({msg, clearRoll}: {msg: DiceMessage, clearRoll: (id
             const diceBox = new DiceBox("#" + id, {
                 theme_customColorset: style,
                 light_intensity: 1,
-                sounds: true,
+                //sounds: true,
                 onRollComplete: () => {
                     setTimeout(() => {
                         if(rollRef.current) {
