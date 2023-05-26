@@ -1,4 +1,4 @@
-import {useRef} from "react";
+import {useEffect, useRef} from "react";
 import DiceBox from "@3d-dice/dice-box-threejs";
 import MagicCircle, {DiceMessage} from "magic-circle-api";
 import "./Roll.css";
@@ -28,10 +28,7 @@ export default function Roll({msg, clearRoll}: {msg: DiceMessage, clearRoll: (id
     const rollRef = useRef(null);
     const id = `roll-${msg.id}`;
     
-    if(window.localStorage.getItem("telekinesis-disableRolls") == "true") {
-        clearRoll(msg.id);
-        return <></>;
-    }
+
     
     async function makeRoll() {
         let style;
@@ -80,7 +77,16 @@ export default function Roll({msg, clearRoll}: {msg: DiceMessage, clearRoll: (id
         }
     }
     
-    makeRoll();
+    const disableRolls = window.localStorage.getItem("telekinesis-disableRolls") == "true";
+
+    useEffect(() => {
+        if(!disableRolls) makeRoll()
+    }, []);
+
+    if(disableRolls) {
+        clearRoll(msg.id);
+        return <></>;
+    }
     
     return (
         <div id={id} className="roll" ref={rollRef}></div>
