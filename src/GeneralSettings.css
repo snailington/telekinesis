@@ -1,0 +1,8 @@
+#app-settings {
+    padding: 8px 0 0 4%;
+    margin-bottom: 3em;
+}
+
+#app-settings > * {
+    float: left;
+}

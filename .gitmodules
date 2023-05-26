@@ -1,0 +1,3 @@
+[submodule "src/dice-box-threejs"]
+	path = src/dice-box-threejs
+	url = https://github.com/3d-dice/dice-box-threejs

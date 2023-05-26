@@ -1,0 +1,13 @@
+{
+    "name": "Telekinesis",
+    "description": "Dice rolling in the Magic Circle",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "action": {
+        "title": "Telekinesis",
+        "icon": "/icon.svg",
+        "popover": "/",
+        "height": 250,
+        "width": 320
+    }
+}

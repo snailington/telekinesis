@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:guide x="476.191" y="171.882" angle="0"/>
+    <bx:guide x="25.85" y="212.698" angle="0"/>
+    <bx:guide x="149.66" y="473.243" angle="90"/>
+    <bx:guide x="318.367" y="150.491" angle="90"/>
+    <bx:guide x="282.993" y="26.682" angle="90"/>
+    <bx:guide x="279.592" y="351.172" angle="90"/>
+    <bx:grid x="0" y="0" width="14.286" height="14.286"/>
+  </defs>
+  <path style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0); stroke-width: 4px;" d="M 58.505 371.579 L 57.144 114.288 L 271.434 28.572 L 445.588 128.574 L 445.588 371.436 L 242.862 471.438 L 58.505 371.579 Z"/>
+  <path style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0); stroke-width: 4px;" d="M 57.144 115.117 L 242.862 214.29 L 445.588 128.574 L 271.434 28.572 L 57.144 114.288"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 4px;" d="M 242.862 214.29 L 242.862 471.438"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 326.877319, 100.002014)" cx="100.002" cy="228.576" rx="14.286" ry="11.905"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 372.455566, 193.19928)" cx="100.002" cy="228.576" rx="14.286" ry="11.905"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 424.156219, 287.076843)" cx="100.002" cy="228.576" rx="14.286" ry="11.905"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 522.115417, 147.621048)" cx="100.002" cy="228.576" rx="14.286" ry="11.905"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 576.53717, 191.83873)" cx="100.002" cy="228.576" rx="14.286" ry="11.905"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 627.557556, 236.736694)" cx="100.002" cy="228.576" rx="14.286" ry="11.905"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 530.958923, 273.471375)" cx="100.002" cy="228.576" rx="14.286" ry="11.905"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 626.197021, 112.246887)" cx="100.002" cy="228.576" rx="14.286" ry="11.905"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 475.176636, 67.34893)" cx="100.002" cy="228.576" rx="10.885" ry="15.306"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 429.598419, 40.818317)" cx="100.002" cy="228.576" rx="10.885" ry="15.306"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 385.380737, 13.607433)" cx="100.002" cy="228.576" rx="10.885" ry="15.306"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 490.822906, -35.372158)" cx="100.002" cy="228.576" rx="10.885" ry="15.306"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 533.680054, -10.20209)" cx="100.002" cy="228.576" rx="10.885" ry="15.306"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 574.496399, 15.64825)" cx="100.002" cy="228.576" rx="10.885" ry="15.306"/>
+  <ellipse style="stroke: rgb(0, 0, 0);" transform="matrix(0, 1, -1, 0, 478.578033, 15.64825)" cx="100.002" cy="228.576" rx="10.885" ry="15.306"/>
+</svg>

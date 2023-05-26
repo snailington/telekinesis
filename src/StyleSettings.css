@@ -1,0 +1,25 @@
+form {
+    padding: 8px 0 0 4%;
+}
+
+form > * {
+    float: left;
+}
+
+label {
+    clear: left;
+    min-width: 40%;
+    max-width: 40%;
+    
+    padding-right: 20%;
+}
+
+input {
+    min-width: 35%;
+    max-width: 40%;
+}
+
+button {
+    margin-top: 16px;
+    width: 25%;
+}
