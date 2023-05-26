@@ -28,8 +28,6 @@ export default function Roll({msg, clearRoll}: {msg: DiceMessage, clearRoll: (id
     const rollRef = useRef(null);
     const id = `roll-${msg.id}`;
     
-
-    
     async function makeRoll() {
         let style;
         if(msg.player == OBR.player.id) {
@@ -47,8 +45,6 @@ export default function Roll({msg, clearRoll}: {msg: DiceMessage, clearRoll: (id
                 )
             }
         }
-        
-        console.log(style);
         
         try {
             const diceBox = new DiceBox("#" + id, {
@@ -69,10 +65,9 @@ export default function Roll({msg, clearRoll}: {msg: DiceMessage, clearRoll: (id
             await diceBox.initialize();
             const diceString = MagicCircle.toDiceString(msg.metadata, false) + "@" +
                 msg.metadata.results?.join(",");
-            console.log(diceString);
             diceBox.roll(diceString);
         } catch(e) {
-            console.log("(telekinesis) exception", e);
+            console.error("(telekinesis) exception", e);
             setTimeout(() => clearRoll(msg.id), 7500);
         }
     }
